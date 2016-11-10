@@ -1,0 +1,31 @@
+{
+  "name": "mimicreative/yii2-scrollator",
+  "description": "Scrollator Asset Bundle for Yii2",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "MF Haqqi",
+      "email": "me@haqqi.net",
+      "homepage": "http://haqqi.net",
+      "role": "Creator"
+    }
+  ],
+  "keywords": ["yii2", "scrollator", "jquery", "scroll"],
+  "type": "yii2-extension",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "yiisoft/yii2": ">=2.0.0"
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "mimicreative\\assets\\": "src/"
+    }
+  }
+}
