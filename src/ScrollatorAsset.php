@@ -37,7 +37,7 @@ class ScrollatorAsset extends AssetBundle {
    */
   public $publishOptions = [
     'only' => [
-      'assets/**'
+      'scrollator/**'
     ]
   ];
 }
