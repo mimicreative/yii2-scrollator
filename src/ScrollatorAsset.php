@@ -15,7 +15,7 @@ class ScrollatorAsset extends AssetBundle {
   /**
    * @inherit
    */
-  public $sourcePath = '@mimicreative/assets';
+  public $sourcePath = '@vendor/mimicreative/yii2-scrollator/src';
 
   public $depends = [
     'yii\web\JqueryAsset'
